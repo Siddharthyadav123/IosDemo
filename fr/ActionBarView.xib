@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ActionBarView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.84999999999999998" contentMode="scaleToFill" id="kVF-Ck-D22">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                    <subviews>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="TD7-Eh-pYC">
+                            <rect key="frame" x="256" y="42" width="22" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="notification.png"/>
+                            <connections>
+                                <action selector="notificationButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZvC-Ex-hi8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="7xs-7e-cZ4">
+                            <rect key="frame" x="289" y="41" width="28" height="25"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="menu.png"/>
+                            <connections>
+                                <action selector="moreButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZLe-z0-Ivd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="0ur-Qj-2wn">
+                            <rect key="frame" x="214" y="38" width="30" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="msg213.png"/>
+                            <connections>
+                                <action selector="messageButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="NOo-qz-eSS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="DNx-zg-Vd7">
+                            <rect key="frame" x="55" y="42" width="23" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="search.png"/>
+                            <connections>
+                                <action selector="searchButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="jbI-XM-HYq"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mg8-AX-21m">
+                            <rect key="frame" x="78" y="36" width="121" height="37"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="Show Filter">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showFilterButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="AQF-YP-kmt"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_toip.png" id="8RN-dV-H6Z">
+                            <rect key="frame" x="180" y="45" width="12" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="GMk-QF-mlE">
+                            <rect key="frame" x="8" y="38" width="39" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="icon_logo.png"/>
+                            <connections>
+                                <action selector="homeScreenLogoButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="5Yf-Dt-4Sc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="filterArrowImage" destination="8RN-dV-H6Z" id="PAB-G5-Vp6"/>
+                <outlet property="homeScreenLogoButton" destination="GMk-QF-mlE" id="A5z-pS-rOs"/>
+                <outlet property="messageButton" destination="0ur-Qj-2wn" id="Peh-JD-VYK"/>
+                <outlet property="moreButton" destination="7xs-7e-cZ4" id="Pnd-uy-kgw"/>
+                <outlet property="notificationButton" destination="TD7-Eh-pYC" id="mD0-A8-lOn"/>
+                <outlet property="parentView" destination="kVF-Ck-D22" id="DNG-wN-ZmK"/>
+                <outlet property="searchButton" destination="DNx-zg-Vd7" id="xPN-qw-WLX"/>
+                <outlet property="showFilterButton" destination="mg8-AX-21m" id="ocN-WE-NsL"/>
+            </connections>
+            <point key="canvasLocation" x="329" y="-213"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_toip.png" width="15" height="19"/>
+        <image name="icon_logo.png" width="39" height="44"/>
+        <image name="menu.png" width="10" height="40"/>
+        <image name="msg213.png" width="26" height="26"/>
+        <image name="notification.png" width="31" height="34"/>
+        <image name="search.png" width="28" height="27"/>
+    </resources>
+</document>

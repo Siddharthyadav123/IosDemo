@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0E71F0F3-D543-498E-B782-B31ACFBBEFA9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IosApplicationFrameworkProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>cb39a73e-6dde-4a97-b5a1-bf0ab88e99bf++1086</key>
+		<string>http://172.16.1.27:12000/SVN/PrixCar/Development</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/trunk/code/DynamicCarriers/IosApplicationFrameworkProject.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>cb39a73e-6dde-4a97-b5a1-bf0ab88e99bf++1086</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cb39a73e-6dde-4a97-b5a1-bf0ab88e99bf++1086</key>
+		<string>http://172.16.1.27:12000/SVN/PrixCar</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://172.16.1.27:12000/SVN/PrixCar/Development/iOS/trunk/code/DynamicCarriers/IosApplicationFrameworkProject.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>cb39a73e-6dde-4a97-b5a1-bf0ab88e99bf++1086</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cb39a73e-6dde-4a97-b5a1-bf0ab88e99bf++1086</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Prixcar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4d219c35-1ec5-439e-b63a-6fb8ad818dcc",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4d219c35-1ec5-439e-b63a-6fb8ad818dcc" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4d219c35-1ec5-439e-b63a-6fb8ad818dcc" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0E71F0F3-D543-498E-B782-B31ACFBBEFA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4d219c35-1ec5-439e-b63a-6fb8ad818dcc" : "FleetRight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IosApplicationFrameworkProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Development\/iOS\/trunk\/code\/IosApplicationFrameworkProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.16.1.27:12000\/SVN\/FleetRight",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4d219c35-1ec5-439e-b63a-6fb8ad818dcc"
+    }
+  ]
+}
